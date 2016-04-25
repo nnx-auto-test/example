@@ -1,0 +1,43 @@
+{
+  "name": "mte/aip-test",
+  "description": "AIP test",
+  "type": "library",
+  "keywords": [
+    "aip",
+    "test",
+    "behat"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Malofeykin Andrey",
+      "email": "and-rey2@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "behat/behat":           "3.0.15",
+    "behat/mink-extension":  "~2.2.0",
+    "behat/mink-selenium2-driver":  "~1.2.0",
+    "sensiolabs/behat-page-object-extension": "~2.0.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+
+    },
+    "classmap": [
+
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+
+    },
+    "classmap": [
+
+    ]
+  }
+}

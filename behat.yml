@@ -1,0 +1,24 @@
+default:
+  translation:
+    locale: ru
+  autoload:
+    TestHabrContext: '%paths.base%/bootstrap'
+    HabrPage: '%paths.base%/page'
+  suites:
+    app:
+      paths: [%paths.base%/features]
+      contexts:
+        - TestHabrContext\LeftMenuContext
+        - TestHabrContext\MainPageContext
+        - TestHabrContext\ResultSearchPageContextContext
+  extensions:
+    SensioLabs\Behat\PageObjectExtension:
+      namespaces:
+        page: [HabrPage]
+    Behat\MinkExtension:
+      base_url:  'https://habrahabr.ru/'
+      browser_name: 'chrome'
+      sessions:
+        default:
+          selenium2: ~
+

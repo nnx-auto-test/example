@@ -1,0 +1,18 @@
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="global" source-language="en" target-language="ru" datatype="plaintext">
+    <header />
+    <body>
+        <trans-unit id="iWaitOpenResultSearchPage">
+            <source><![CDATA[I wait the opening of the search results page for query :query]]></source>
+            <target><![CDATA[Я ожидаю открытия страницы результатов поиска для запроса :query]]></target>
+        </trans-unit>
+        <trans-unit id="iExpectThatTheResultsWillBeAnArticleWithTheHeadline">
+            <source><![CDATA[I expect that the results will be an article with the headline :articleHeader]]></source>
+            <target><![CDATA[Я ожидаю что в результатах будет статья с заголовком :articleHeader]]></target>
+        </trans-unit>
+    </body>
+  </file>
+</xliff>
+
+
+
